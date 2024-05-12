@@ -97,9 +97,18 @@
 </p>
 <br />
 
+# 2. 기술 설계
+<img src="./SA.png">
+<br><br>
+
+# 3. 설계 문서
+
+<img src="./imgs/KoolCartERD.PNG"/>
+<img src="./imgs/ShoppingmallERD.PNG"/>
+<br><br>
 
 
-# 2. 서비스 화면과 주요 기능
+# 4. 서비스 화면과 주요 기능
 ## 대기화면
 > 사용자와의 거리를 인식하여 일정 거리 이하로 사용자가 다가오면 자동으로 화면이 켜집니다.
 
@@ -198,16 +207,7 @@
 <img width="49%" src="./imgs/로그인.gif"/> 
 
 > 회원가입 및 로그인을 해야 애플리케이션의 서비스를 이용할 수 있습니다. 
-> 비밀번호, 이메일, 전화번호, 주소를 변경할 수 있습니다. 
-
-# 3. 기술 설계
-<img src="./SA.png">
-<br><br>
-
-# 4. 설계 문서
-
-<img src="./imgs/KoolCartERD.PNG"/>
-<img src="./imgs/ShoppingmallERD.PNG"/>
+> 비밀번호, 이메일, 전화번호, 주소를 변경할 수 있습니다.
 <br><br>
 
 # 5. Jira 번다운 차트
