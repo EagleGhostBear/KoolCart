@@ -28,61 +28,61 @@
 
 🔨 **Management Tool**
 
-<img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-FC6D26?style=flat-square&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/Git-FC6D26?style=flat-square&logo=git&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" style="display:inline-block;">
 
 
 💻 **IDE**
 
-<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
-<img src="https://img.shields.io/badge/IntelliJ-000000?style=flat-square&logo=intellijidea&logoColor=white"/>
+<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/IntelliJ-000000?style=flat-square&logo=intellijidea&logoColor=white" style="display:inline-block;">
 
 
 🐧 **Infra**
   
-<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white"/>
-<img src="https://img.shields.io/badge/DOCKER-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white"/>
+<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/DOCKER-2496ED?style=flat-square&logo=docker&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" style="display:inline-block;">
 
 
 ✨ **Frontend**
 
-<img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white"/>
-<img src="https://img.shields.io/badge/vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/axios-5A29E4?style=flat-square&logo=axios&logoColor=white"/>
-<img src="https://img.shields.io/badge/styledcomponents-DB7093?style=flat-square&logo=styledcomponents&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white"/>
+<img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/vite-646CFF?style=flat-square&logo=vite&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/axios-5A29E4?style=flat-square&logo=axios&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/styledcomponents-DB7093?style=flat-square&logo=styledcomponents&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white" style="display:inline-block;">
 
 
 📦 **Backend**
 
-<img src="https://img.shields.io/badge/JAVA-E95420?style=flat-square&logo=&logoColor=white"/>
-<img src="https://img.shields.io/badge/springboot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring JPA-E95420?style=flat-square&logo=&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
-<img src="https://img.shields.io/badge/django-092E20?style=flat-square&logo=django&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white"/>
+<img src="https://img.shields.io/badge/JAVA-E95420?style=flat-square&logo=&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/springboot-6DB33F?style=flat-square&logo=springboot&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/redis-DC382D?style=flat-square&logo=redis&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/Spring JPA-E95420?style=flat-square&logo=&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/django-092E20?style=flat-square&logo=django&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" style="display:inline-block;">
 
 
 <br />
 
 ⚙ **Hardware**
 
-<img src="https://img.shields.io/badge/Raspberry Pi 4B-A22846?style=flat-square&logo=raspberrypi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white"/>
-<img src="https://img.shields.io/badge/Adafruit-000000?style=flat-square&logo=adafruit&logoColor=white"/>
+<img src="https://img.shields.io/badge/Raspberry Pi 4B-A22846?style=flat-square&logo=raspberrypi&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white" style="display:inline-block;">
+<img src="https://img.shields.io/badge/Adafruit-000000?style=flat-square&logo=adafruit&logoColor=white" style="display:inline-block;">
 <br />
 
 
@@ -190,13 +190,13 @@
 
 # 3. 기술 설계
 <img src="./SA.png">
+<br><br>
 
 # 4. 설계 문서
 
-<p align="center">
-  <img width="49%" src="./imgs/KoolCartERD.PNG"/>
-  <img width="49%" src="./imgs/ShoppingmallERD.PNG"/>
-</p>
+<img src="./imgs/KoolCartERD.PNG"/>
+<img src="./imgs/ShoppingmallERD.PNG"/>
+<br><br>
 
 # 5. Jira 번다운 차트
 <img src="./imgs/2주차.png">
@@ -211,6 +211,7 @@
 4, 5주차는 모두 계획대로 원활한 프로젝트가 진행된 모습을 보여주고 있습니다.
 
 6주차 원활한 프로젝트 진행으로 설날 기간 동안 프로젝트가 마무리 되면서 1주일 빠르게 프로젝트를 완성하였습니다.
+<br>
 
 # 6. 팀원 소개 및 역할 분담
 ## 박건률 : 팀장
