@@ -12,6 +12,16 @@
 <br/>
 <br/>
 
+# 빌드
+```
+sudo apt install openjdk-17-jdk
+cd ~/KoolCart
+chmod +x gradlew
+./gradlew build
+cd ~/KoolCart/build/libs
+java -jar KoolCart-0.0.1-SNAPSHOT.jar
+```
+
 
 # 📜 목차  
 <br/>
