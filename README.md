@@ -108,7 +108,7 @@ java -jar KoolCart-0.0.1-SNAPSHOT.jar
 <br />
 
 # 2. 기술 설계
-<img src="./SA.png">
+<img src="./imgs/KoolCart_Architecture.png">
 <br><br>
 
 # 3. 설계 문서
