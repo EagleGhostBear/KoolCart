@@ -14,10 +14,10 @@ services:
     image: koolcart_f
     deploy:
       mode: replicated
-      replicas: 2
+      replicas: 3
 
   backend:
     image: koolcart_b
     deploy:
       mode: replicated
-      replicas: 2
+      replicas: 3

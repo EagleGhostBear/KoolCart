@@ -17,7 +17,6 @@
 2. src/main/frontend/vite.config.js Target Url 수정
 ```
 # 백엔드 빌드(openjdk 설치 필요)
-sudo apt install openjdk-17-jdk
 chmod +x ~/KoolCart/gradlew
 docker build -t koolcart_b ~/KoolCart
 ```
@@ -26,6 +25,7 @@ docker build -t koolcart_b ~/KoolCart
 docker build -t koolcart_f ~/KoolCart/src/main/frontend
 ```
 ```
+cd ~/KoolCart
 docker compose --compatibility up -d
 ```
 
