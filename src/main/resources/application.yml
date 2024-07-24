@@ -8,9 +8,9 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     # msgs cloud DB Info
-    url: jdbc:mysql://i10a101.p.ssafy.io:3306/koolCart
-    username: ssafy101
-    password: 111
+    url: jdbc:mysql://<Public IP>:3306/<DB Name>
+    username: <DB ID>
+    password: <DB PW>
 
   #File Upload
   servlet:

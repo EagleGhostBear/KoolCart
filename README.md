@@ -16,17 +16,13 @@
 ```
 # 백엔드 빌드
 sudo apt install openjdk-17-jdk
-cd ~/KoolCart
-chmod +x gradlew
-./gradlew build
-cd ~/KoolCart/build/libs
-java -jar KoolCart-0.0.1-SNAPSHOT.jar
-
+docker build -t koolcart_b ~/KoolCart
+docker run --name koolcart_back -dp 8080:8080 koolcart_b
+```
+```
 # 프론트엔드 빌드
-sudo apt-get install nodejs
-cd ~/KoolCart/src/main/frontend
-npm install
-npm run dev
+docker build -t koolcart_f ~/KoolCart/src/main/frontend
+docker run --name koolcart_front -dp 8080:8080 koolcart_f
 ```
 
 
