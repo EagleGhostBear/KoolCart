@@ -15,5 +15,7 @@ FROM openjdk:17-jdk-slim
 # 빌드된 JAR 파일을 복사
 COPY --from=builder /app/build/libs/*.jar koolcart_b.jar
 
+EXPOSE 8080/tcp
+
 # 애플리케이션 실행
 ENTRYPOINT ["java", "-jar", "koolcart_b.jar"]

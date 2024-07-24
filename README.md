@@ -13,16 +13,20 @@
 <br/>
 
 # 빌드
+1. src/main/resources/application.yml DB Url 수정
+2. src/main/frontend/vite.config.js Target Url 수정
 ```
-# 백엔드 빌드
+# 백엔드 빌드(openjdk 설치 필요)
 sudo apt install openjdk-17-jdk
+chmod +x ~/KoolCart/gradlew
 docker build -t koolcart_b ~/KoolCart
-docker run --name koolcart_back -dp 8080:8080 koolcart_b
 ```
 ```
-# 프론트엔드 빌드
+# 프론트엔드 빌드(nvm 설치 필요)
 docker build -t koolcart_f ~/KoolCart/src/main/frontend
-docker run --name koolcart_front -dp 8080:8080 koolcart_f
+```
+```
+docker compose --compatibility up -d
 ```
 
 
