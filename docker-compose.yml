@@ -15,9 +15,14 @@ services:
     deploy:
       mode: replicated
       replicas: 3
+    env_file:
+      - .env
+
 
   backend:
     image: koolcart_b
     deploy:
       mode: replicated
       replicas: 3
+    env_file:
+      - .env
