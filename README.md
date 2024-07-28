@@ -13,8 +13,10 @@
 <br/>
 
 # 빌드
-1. src/main/resources/application.yml DB Url 수정
-2. src/main/frontend/vite.config.js Target Url 수정
+```
+# 환경 변수 추가
+echo -e "public_ip=<Public IP>\ndb_name=<DB NAME>\ndb_id=<DB ID>\ndb_pwd=<DB PWD>" > ~/KoolCart/.env
+```
 ```
 # 백엔드 빌드(openjdk 설치 필요)
 chmod +x ~/KoolCart/gradlew
