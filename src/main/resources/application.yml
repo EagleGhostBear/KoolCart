@@ -1,10 +1,10 @@
-#Server port
+# Server port
 server:
   port: 8080
   address: 0.0.0.0
 
 spring:
-  #MySQL
+  # MySQL
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     # msgs cloud DB Info
@@ -12,12 +12,14 @@ spring:
     username: ${db_id}
     password: ${db_pwd}
 
-  #File Upload
+  # File Upload
   servlet:
-    multipart: 
-      enabled: true 
+    multipart:
+      enabled: true
       max-file-size: 5MB
-  # JPAjpa:
+
+  # JPA
+  jpa:
     hibernate:
       ddl-auto: update
     generate-ddl: true
@@ -27,3 +29,10 @@ spring:
 
   profiles:
     include: api
+
+# prometheus만 엔드포인트에 접근 가능하게 설정
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "prometheus"

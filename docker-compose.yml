@@ -14,7 +14,7 @@ services:
     image: koolcart_f
     deploy:
       mode: replicated
-      replicas: 3
+      replicas: 1
     env_file:
       - .env
 
