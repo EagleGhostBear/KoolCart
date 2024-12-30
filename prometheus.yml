@@ -1,0 +1,37 @@
+# 기본적인 전역 설정
+global:
+  scrape_interval: 15s # 15초마다 매트릭을 수집한다. 기본은 1분이다.
+  evaluation_interval: 15s # 15초마다 매트릭을 수집한다. 기본은 1분이다.
+  # 'scrpae_timeout' 이라는 설정은 기본적으로 10초로 세팅되어 있다.
+
+# Alertmanager 설정
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          # - alertmanager:9093
+
+# 규칙을 처음 한번 로딩하고 'evaluation_interval'설정에 따라 정기적으로 규칙을 평가한다.
+rule_files:
+  # - "first_rules.yml"
+  # - "second_rules.yml"
+
+# 매트릭을 수집할 엔드포인트를 설정. 여기서는 Prometheus 서버 자신을 가리키는 설정을 했다.
+scrape_configs:
+  # 이 설정에서 수집한 타임시리즈에 'job=<job_name>'으로 잡의 이름을 설정한다.
+  - job_name: "prometheus"
+    # 'metrics_path'라는 설정의 기본 값은 '/metrics'이고
+    # 'scheme'라는 설정의 기본 값은 'http'이다.
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  # spring-actuator는 docker-compose 배포 상황에서는 동작 안함
+  - job_name: "spring-actuator"          # 수집하는 이름으로 임의의 이름
+    metrics_path: '/actuator/prometheus' # 수집할 경로를 지정
+    scrape_interval: 5s                  # 수집할 주기를 설정 1m은 1분, 1s는 1초
+    static_configs:
+      - targets: ['koolcart_b:8080']
+
+  - job_name: 'cadvisor'
+    static_configs:
+      - targets: ['cadvisor:8080']
